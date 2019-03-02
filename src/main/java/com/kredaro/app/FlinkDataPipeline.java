@@ -19,8 +19,8 @@ import static com.kredaro.app.connector.Producers.*;
 public class FlinkDataPipeline {
 
     public static void capitalize() throws Exception {
-        String inputTopic = "flink_input";
-        String outputTopic = "flink_output";
+        String inputTopic = "flink-input";
+        String outputTopic = "flink-output";
         String consumerGroup = "";
         String address = "35.200.176.64:9092";
 
@@ -45,8 +45,8 @@ public class FlinkDataPipeline {
     }
 
 public static void createBackup () throws Exception {
-    String inputTopic = "flink_input";
-    String outputTopic = "flink_output";
+    String inputTopic = "flink-input";
+    String outputTopic = "flink-output";
     String consumerGroup = "";
     String kafkaAddress = "35.200.176.64:9092";
 

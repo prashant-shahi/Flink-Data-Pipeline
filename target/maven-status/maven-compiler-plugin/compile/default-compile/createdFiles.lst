@@ -8,6 +8,6 @@ com/kredaro/app/model/InputMessage.class
 com/kredaro/app/operator/WordsCapitalizer.class
 com/kredaro/app/LineSplitter.class
 com/kredaro/app/schema/InputMessageDeserializationSchema.class
-com/kredaro/app/connector/Producers.class
 com/kredaro/app/model/Backup.class
+com/kredaro/app/connector/Producers.class
 com/kredaro/app/WordCount.class
